@@ -1,0 +1,6 @@
+npm run lint || {
+  echo ""
+  echo "🚨 Commit aborted! Fix the linting issues before continuing."
+  echo ""
+  exit 1
+}
