@@ -1,8 +1,0 @@
-npx --no -- commitlint --edit "$1" --verbose || {
-  echo "🚫 Commit rejected! The format must follow Conventional Commits."
-  echo ""
-  echo "🔹 Valid example: feat: add support for Google login"
-  echo "🔹 Allowed types: feat, fix, docs, style, refactor, test, chore, perf"
-  echo ""
-  exit 1
-}
