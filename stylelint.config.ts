@@ -25,7 +25,10 @@ const config: Config = {
     'color-hex-length': 'short',
     'font-family-name-quotes': 'always-where-recommended',
     'function-url-quotes': 'always',
-    'selector-attribute-quotes': 'always'
+    'selector-attribute-quotes': 'always',
+    // OFF
+    'at-rule-no-unknown': null,
+    'no-invalid-position-at-import-rule': null
   }
 };
 
